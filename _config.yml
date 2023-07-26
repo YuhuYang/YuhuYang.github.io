@@ -1,14 +1,14 @@
 title: Mu Yang
 # tagline: Two roads diverged in woods, I took the one less traveled by.
-description: Two roads diverged in woods, I took the one less traveled by.
+description: 洛阳亲友如相问，一片冰心在玉壶。
 #Comment out url when working locally to resolve base urls correctly
 url: https://yuhuyang.github.io
 
 # Owner/author information
 owner:
-  name: Mu Yang
-  avatar: networks.jpg
-#  bio:
+  name: "Mu Yang"
+  avatar: "networks.jpg"
+  bio: "A BB zone of Mu Yang"
   email: yangmufy@163.com
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   #twitter: lancecai2002
