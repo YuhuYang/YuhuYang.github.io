@@ -7,7 +7,7 @@ url: https://yuhuyang.github.io
 # Owner/author information
 owner:
   name: Mu Yang
-  avatar: 网络.jpg
+  avatar: <img src="https://yuhuyang.github.io/网络.jpg" class="floatpic" width="360" height="480">
 #  bio:
   email: yangmufy@163.com
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
@@ -75,7 +75,7 @@ kramdown:
 
 # disqus settings:
 disqus:
-  shortname: lancecai
+  shortname: yuhu
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "minimal-mistakes.sublime-project", "minimal-mistakes.sublime-workspace"]
