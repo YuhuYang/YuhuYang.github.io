@@ -6,7 +6,6 @@ title: Projects
 
 # Research Projects
 
-P.S., click the hyperlink title to access the source.<br>
 
 #### 数据驱动的汉语动名兼类探索
 
