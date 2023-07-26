@@ -40,10 +40,6 @@ title: Aboutme-zh
 
 ---
 
-更新时间：2023/07/23&nbsp;   [English Version (英文)](https://yuhuyang.github.io/index/)
-
----
-
 ## 更新
 
 - **2023/07：**很高兴能被浙江大学录取！
