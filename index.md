@@ -37,7 +37,7 @@ I am recently interested in **language evolution** from a **quantitative** persp
 <br>
 ---
 
-If you need Chinese version, please click [中文 (Chinese Version)](https://yuhuyang.github.io/aboutme-zh/).
+If you need [中文 (Chinese Version)](https://yuhuyang.github.io/aboutme-zh/), please click. 
 
 ---
 
