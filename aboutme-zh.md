@@ -37,6 +37,9 @@ title: Aboutme-zh
 最近，我对**定量**视角下的**语言演化**感兴趣, 尝试用多主体建模的方法做研究。 如果您也有兴趣，欢迎交流！
 
 <br>
+---
+
+若返回[英文(English Version)](yuhuyang.github.io)，请点击。
 
 ---
 
