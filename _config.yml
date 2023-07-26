@@ -1,5 +1,5 @@
 title: Mu Yang
-# tagline: Two roads diverged in woods, I took the one less traveled by.
+tagline: 洛阳亲友如相问，一片冰心在玉壶。
 description: 洛阳亲友如相问，一片冰心在玉壶。
 #Comment out url when working locally to resolve base urls correctly
 url: https://yuhuyang.github.io
@@ -7,15 +7,15 @@ url: https://yuhuyang.github.io
 # Owner/author information
 owner:
   name: "Mu Yang"
-  avatar: "networks.jpg"
-  bio: "A BB zone of Mu Yang"
+  avatar: "network.jpg"
+  bio: "洛阳亲友如相问，一片冰心在玉壶。"
   email: yangmufy@163.com
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  #twitter: lancecai2002
+  # twitter: lancecai2002
   # facebook: caihanlin2002
   github: YuhuYang
-  #linkedin: hanlin-cai-07b53b23b
-  #scholar: https://scholar.google.com/citations?user=8igSoWgAAAAJ
+  # linkedin: hanlin-cai-07b53b23b
+  # scholar: https://scholar.google.com/citations?user=8igSoWgAAAAJ
   # instagram: lancecai2002
   # lastfm:
   # tumblr:
@@ -24,7 +24,7 @@ owner:
 
 # Analytics and webmaster tools stuff goes here
 # https://search.google.com/search-console/ownership
-#google_verify: "SkiyuGpJOKT74vv5GmXLvYXXDkXy4v8VWPtbelYz3Hs"
+# google_verify: ""
 
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 # bing_verify: ""
@@ -72,14 +72,9 @@ kramdown:
   #   coderay_bold_every: 10
   #   coderay_css: class
 
-
 # disqus settings:
 disqus:
   shortname: yuhu
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "minimal-mistakes.sublime-project", "minimal-mistakes.sublime-workspace"]
-
-
-# Latest update in 2023/05/01 by Hanlin Cai.
-# URL: https://caihanlin.com/
