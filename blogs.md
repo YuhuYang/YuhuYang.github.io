@@ -8,7 +8,7 @@ title: Blogs
 
 ### 2023
 
-- [20岁的诗](https://yuhuyang.com/blogs/20poems)
+- [20岁的诗](https://yuhuyang.github.io/blogs/20poems)
 
 <br>
 
