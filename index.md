@@ -1,5 +1,7 @@
 ---
 layout: page
+permalink: /index/index.html
+title: Index
 ---
 
 # About Me

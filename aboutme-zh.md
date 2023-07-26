@@ -1,5 +1,7 @@
 ---
 layout: page
+permalink: /aboutme-zh/index.html
+title: Aboutme-zh
 ---
 
 # 关于我
@@ -35,6 +37,10 @@ layout: page
 最近，我对**定量**视角下的**语言演化**感兴趣, 尝试用多主体建模的方法做研究。 如果您也有兴趣，欢迎交流！
 
 <br>
+
+---
+
+更新时间：2023/07/23&nbsp;   [English Version (英文)](https://yuhuyang.github.io/index/)
 
 ---
 
