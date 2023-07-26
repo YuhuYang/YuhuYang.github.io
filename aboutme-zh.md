@@ -10,7 +10,7 @@ title: Aboutme-zh
 
 我是**杨牧**(放原、玉壶 [Mu Yang](https://yuhuyang.github.io/file/Resume-MuYang.pdf)).
 
-我本科毕业于山东大学的**英语**专业, 硕士毕业于南开大学的**语言学及应用语言学**专业。现在是浙江大学**外国语言学及应用语言学**专业的在读博士生. 有幸成为[刘海涛教授](https://person.zju.edu.cn/lht)的学生. 这是我的[简历](https://yuhuyang.github.io/file/杨牧简历.pdf)。
+我本科毕业于山东大学的**英语**专业, 硕士毕业于南开大学的**语言学及应用语言学**专业。现在是浙江大学**外国语言学及应用语言学**专业的在读博士生。有幸成为[刘海涛教授](https://person.zju.edu.cn/lht)的学生。这是我的[简历](https://yuhuyang.github.io/file/杨牧简历.pdf)。
 
 <br>
 
