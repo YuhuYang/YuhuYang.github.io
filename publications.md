@@ -6,24 +6,19 @@ title: Publications
 
 # Publications
 
-Lastest Update: 23rd July 2023&nbsp;  [中文 (Chinese Version)](https://caihanlin.com/publications-zh/)
+Lastest Update: 26rd July 2023&nbsp;  [中文 (Chinese Version)](https://yuhuyang.com/publications-zh/)
 
-## Undergrad Thesis
+## Thesis
 
-- [Industrial Inspection System based on Intelligent IoT and Bionic Quadruped Robot](https://caihanlin.com/mypaper/thesis/IP-thesis.pdf)<br>**Hanlin Cai** (Advisor: Zhezhuang Xu)<br>Industrial Placement Thesis in Huading Tech and IACTIP Lab<br>
+- [A Study on High-frequency Verb-noun Heterosemous Words based on Dependency Syntax ](https://yuhuyang.com/mypaper/基于依存句法的高频动名兼类词研究.pdf)<br>**Mu Yang** (Advisor: Yansheng Cai)<br>Collage of Chinese Language and Culture, Nankai University，2023/06<br>
 
-## Conference Paper
+## Chinese Papers
 
-- [Deep Residual Neural Network for Efficient Traffic Sign Detection](https://caihanlin.com/mypaper/202302ICAROB.pdf)<br>**Hanlin Cai**, Zheng Li, Jiaqi Hu, Wei Hong Lim, Sew Sun Tiang, Mastaneh Mokayef, Chin Hong Wong<br>28th International Conference on Artificial Life and Robotics<br>Beppu, Japan. February, 2023. [Slides](https://caihanlin.com/mypaper/slides/2023-ICAROB-Pre.pdf).
+- [Review and development of dependency parsing](https://yuhuyang.com/mypaper/依存句法分析的回顾和发展.pdf)<br>**Mu Yang** & Yansheng Cai<br>Modern Chinese<br>AMI 2022/01.<br>
 
-- [An IoT Garbage Monitoring System for Effective Garbage Management](https://caihanlin.com/mypaper/202208cenim.pdf)<br>**Hanlin Cai**, Jiaqi Hu, Zheng Li, Wei Hong Lim, Mastaneh Mokayef, Chin Hong Wong<br>4th International Conference on Computer Engineering, Network and Intelligent Multimedia<br>Surabaya, Indonesia. November, 2022.<br>
+## English Papers
+
+- [The role of syntax in the formation of scale-free networks](https://yuhuyang.com/mypaper/The role of syntax in the formation of the scale-free language networks.pdf)<br>**Mu Yang** & Haitao Liu<br>EPL(Europhysics Letters)<br>SCI&Scopus 2022/09.<br>
 
 ---
 
-## Competition Paper
-
-- [Reshape the Crowning Glory of Maasai Mara](https://caihanlin.com/mypaper/modeling/202302COMAP.pdf)<br>**Hanlin Cai**, Yufei Wu, Wenxuan Luo, Zhezhuang Xu<br>Mathematical Contest In Modeling (COMAP 2023)<br>**Finalist Award** (Top 1% of all 20858 paper).<br>
-
-## Working Manuscript
-
-- Learning Based Detection System for Spoofing Attack in BLE Networks<br>**Hanlin Cai** (Advisor: [Pietro Liò](https://www.cl.cam.ac.uk/~pl219/) and Zhezhuang Xu)<br>[The latest manuscript](https://caihanlin.com/mypaper/202210camb.pdf) (during 2022 Summer Intern at Cambridge University)<br>**Working hard for the upcoming AAAI 2024!**

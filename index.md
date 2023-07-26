@@ -14,7 +14,6 @@ I graduated from Shandong University with a bachelor's degree in **English**, an
 
 ## Academic Background
 
-**<font color='red'>[Highlight]</font> I am looking for PhD to start in 2025 Fall. Contact me if you have any leads!**
 
 - **Sep 2016 - June 2020:** Shandong University 
 - **Sep 2020 - May 2023:** Nankai University
