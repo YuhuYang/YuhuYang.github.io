@@ -35,6 +35,9 @@ I graduated from Shandong University with a bachelor's degree in **English**, an
 I am recently interested in **language evolution** from a **quantitative** perspective, and try to use the method of agent-based modeling to conduct research. If you are also interested, welcome to communicate!
 
 <br>
+---
+
+- If you need Chinese version, please click [中文]（https://yuhuyang.github.io/aboutme_zh）（Chinese Version）.
 
 ---
 
