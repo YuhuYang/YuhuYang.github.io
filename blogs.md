@@ -11,11 +11,3 @@ title: Blogs
 - [20岁的诗](https://yuhuyang.github.io/blogs/20poems)
 
 <br>
-
-## Leave a Message
-
-<br>
-
-{% include disqus.html %} 
-
-<br>
