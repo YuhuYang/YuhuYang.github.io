@@ -4,7 +4,7 @@ layout: page
 
 # About Me
 
-<img src="https://yuhuyang.github.io/网络.jpg" class="floatpic" width="360" height="480">
+<img src="https://yuhuyang.github.io/network.jpg" class="floatpic" width="360" height="480">
 
 Here is **Mu Yang (Yorm, [杨牧](https://yuhuyang.github.io/file/杨牧简历.pdf))**.
 
