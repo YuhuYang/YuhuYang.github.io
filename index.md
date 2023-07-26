@@ -16,8 +16,11 @@ I graduated from Shandong University with a bachelor's degree in **English**, an
 
 
 - **Sep 2016 - June 2020:** Shandong University 
-- **Sep 2020 - May 2023:** Nankai University
-- **June 2023 - Now :** Zhejiang University
+- **Sep 2020 - May 2023:**  Nankai University
+- **June 2023 - Now :**     Zhejiang University
+
+- **[Lineage](https://academictree.org/linguistics/tree.php?pid=750703&fontsize=1&pnodecount=4&cnodecount=2):** [Ferdinand de Saussure](https://zh.wikipedia.org/wiki/%E8%B4%B9%E8%BF%AA%E5%8D%97%C2%B7%E5%BE%B7%C2%B7%E7%B4%A2%E7%BB%AA%E5%B0%94) -> [Antoine Meillet](https://zh.wikipedia.org/wiki/%E5%AE%89%E6%89%98%E4%B8%87%C2%B7%E6%A2%85%E8%80%B6) -> [Qixiang Cen](https://zh.wikipedia.org/wiki/%E5%B2%91%E9%BA%92%E7%A5%A5) -> [Zhiwei Feng](http://lingvikonet17140.w002.vh.cnolnic.org/feng/feng.htm) -> [Haitao Liu](http://www.lingviko.net) -> [Mu Yang](yuhuyang.github.io)
+- **Erdos Number:** = 4
 
 <br>
 
