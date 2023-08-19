@@ -30,7 +30,7 @@ title: Projects
 
 #### 4. 多维指标的大语言模型和人类语言对比研究 （ongoing）
 
-#### 5. QuantLing: A Python Package for Quantative Linguistics (developing)
+#### 5. QuantLing: A Python Package for Quantitative Linguistics (developing)
 ---
 
 # Future Projects
