@@ -18,7 +18,7 @@ Lastest Update: 26rd July 2023&nbsp;  [中文 (Chinese Version)](https://yuhuyan
 
 ## English Papers
 
-- [The role of syntax in the formation of scale-free networks](https://yuhuyang.github.io/mypaper/The role of syntax in the formation of the scale-free language networks.pdf)<br>**Mu Yang** & Haitao Liu<br>EPL(Europhysics Letters)<br>SCI&Scopus 2022/09.<br>
+- [The role of syntax in the formation of scale-free language networks](https://yuhuyang.github.io/mypaper/The role of syntax in the formation of the scale-free language networks.pdf)<br>**Mu Yang** & Haitao Liu<br>EPL(Europhysics Letters)<br>SCI&Scopus 2022/09.<br>
 
 ---
 
