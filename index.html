@@ -1,0 +1,98 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>语言-数据-认知</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 data-i18n="site_name">杨牧</h1>
+      <p class="tagline" data-i18n="tagline">我见青山多妩媚</p>
+      <nav>
+        <a href="index.html" class="active" data-i18n="nav_home">首页</a>
+        <a href="about.html" data-i18n="nav_about">个人信息</a>
+        <a href="publications.html" data-i18n="nav_pubs">论文发表</a>
+        <a href="software.html" data-i18n="nav_software">软件</a>
+        <a href="conferences.html" data-i18n="nav_conf">会议与展示</a>
+        <a href="universals.html" data-i18n="nav_universals">博客</a>
+        <a href="contact.html" data-i18n="nav_contact">联系</a>
+      </nav>
+                  <div class="lang-corner">
+        <label class="lang-label" for="lang-select" data-i18n="lang_label">语言</label>
+        <select id="lang-select" class="lang-select" aria-label="Language switch">
+          <option value="zh">中文</option>
+          <option value="en">English</option>
+        </select>
+        <form class="site-search" action="search.html" method="get" role="search">
+          <input id="site-search-input" name="q" type="search" data-i18n-placeholder="search_placeholder" placeholder="站内搜索" aria-label="Site search" />
+          <button type="submit" class="site-search-btn" data-i18n="search_btn">搜索</button>
+        </form>
+      </div>    </div>
+</header>
+
+  <main class="container">
+    <div class="page-layout">
+      <aside class="sidebar left-sidebar">
+        <section class="card">          <img class="profile-photo" src="figure/photo.jpg" alt="Scholar portrait" />
+          <p class="small-muted" data-i18n="left_profile_desc">计量语言学、数据驱动语言学、依存语法、复杂网络</p>
+        </section>
+        <section class="card">
+          <h3 data-i18n="left_contact_title">联系方式</h3>
+          <ul class="contact-list">
+            <li><span data-i18n="label_github">GitHub</span><a href="https://github.com/YuhuYang" target="_blank" rel="noopener noreferrer">github.com/YuhuYang</a></li>
+            <li><span data-i18n="label_email">邮箱</span><a href="mailto:yangmufy@163.com">yangmufy@163.com</a></li>
+            <li><span data-i18n="label_orcid">ORCID</span><a href="https://orcid.org/0009-0009-0883-1910" target="_blank" rel="noopener noreferrer">0009-0009-0883-1910</a></li>
+          </ul>
+        </section>
+      </aside>
+
+      <section class="content-column">
+        <section class="card hero">
+          <img class="wordcloud-image" src="figure/wordcloud.png" alt="Word cloud" />
+        </section>
+      </section>
+
+      <aside class="sidebar right-sidebar">
+        <section class="card">
+          <h3 data-i18n="right_links_title">友情链接</h3>
+<ul class="link-list">
+  <li><a href="https://universaldependencies.org" target="_blank" rel="noopener noreferrer">Universal Dependencies</a></li>
+  <li><a href="https://surfacesyntacticud.org/" target="_blank" rel="noopener noreferrer">Surface-Syntactic Universal Dependencies</a></li>
+  <li><a href="https://faculty.fudan.edu.cn/lht/zh_CN/index.htm" target="_blank" rel="noopener noreferrer" data-i18n="right_link_haitao">刘海涛教授主页</a></li>
+  <li><a href="https://wiki.swarma.org/index.php/%E9%A6%96%E9%A1%B5" target="_blank" rel="noopener noreferrer">集智百科</a></li>
+  <li><a href="http://glottopedia.org/index.php/Main_Page#Quantitative_Linguistics" target="_blank" rel="noopener noreferrer">Glottopedia</a></li>
+  <li><a href="http://lql.uni-trier.de/index.php/Main_Page" target="_blank" rel="noopener noreferrer">Laws in Quantitative Linguistics</a></li>
+</ul>
+        </section>
+        <section class="card">
+          <h3 data-i18n="right_tools_title">有趣小工具与软件</h3>
+          <ul class="link-list">
+            <li><a href="https://www.wolframalpha.com" target="_blank" rel="noopener noreferrer">WolframAlpha</a></li>
+            <li><a href="https://www.desmos.com/calculator" target="_blank" rel="noopener noreferrer">Desmos Graphing</a></li>
+            <li><a href="https://voyant-tools.org" target="_blank" rel="noopener noreferrer">Voyant Tools</a></li>
+            <li><a href="https://www.laurenceanthony.net/software/antconc" target="_blank" rel="noopener noreferrer">AntConc</a></li>
+            <li><a href="https://obsidian.md" target="_blank" rel="noopener noreferrer">Obsidian</a></li>
+          </ul>
+        </section>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container" data-i18n="footer_text">© 2026 杨牧 | 学术主页</div>
+  </footer>
+  <script src="assets/i18n.js" defer></script>
+<script src="assets/network.js" defer></script>
+  <script src="assets/site-search.js" defer></script>
+</body>
+</html>
+
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+﻿<svg width="640" height="760" viewBox="0 0 640 760" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Scholar portrait placeholder">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#c9dde3"/>
+      <stop offset="100%" stop-color="#8fb3c0"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="760" fill="url(#g1)"/>
+  <circle cx="320" cy="255" r="120" fill="#f2ece2"/>
+  <path d="M190 625c18-120 78-185 130-185s112 65 130 185" fill="#173f55"/>
+  <path d="M240 300c20 36 52 55 80 55s60-19 80-55" fill="#e2b7a2"/>
+  <text x="50%" y="90%" dominant-baseline="middle" text-anchor="middle" font-size="36" font-family="Segoe UI, Arial, sans-serif" fill="#0d3144">Scholar Portrait</text>
+</svg>
