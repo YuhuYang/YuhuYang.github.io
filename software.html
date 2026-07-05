@@ -52,29 +52,62 @@
 
       <section class="content-column">
         <section class="card">
-          <h2 data-i18n="software_title">句法计量软件：quansyn</h2>
-          <p data-i18n="software_intro">quansyn 是用于句法计量分析的系列项目，quansyn 家族包括 quansyn python package、quansyn mini app、quansyn studio app。</p>
+          <h2 data-i18n="software_title">句法计量软件：QuanSyn</h2>
+          <p data-i18n="software_intro">QuanSyn 是面向句法计量分析的工具体系，提供适合批量研究流程的 Python package，以及适合交互式探索、教学和展示的 QuanSyn Studio。</p>
         </section>
 
-        <section class="card">
-          <h2 data-i18n="software_readme_title">README</h2>
-          <ul class="info-list">
-            <li data-i18n="software_readme_1">安装方式：可通过 pip install quansyn 安装，并在 Python 环境中使用。</li>
-            <li data-i18n="software_readme_2">API 文档：主要 API 说明见项目 README。</li>
-            <li data-i18n="software_readme_3">quansyn mini：开发早期 UI，页面简洁，提供 quansyn 最基础功能。</li>
-            <li data-i18n="software_readme_4">quansyn studio：enhanced UI，除句法指标计算和语言网络边抽取外，还提供句法分析、句法树编辑与可视化、网络分析与可视化等进阶功能。</li>
-          </ul>
-          <p>
-            <a class="btn" href="https://github.com/YuhuYang/QuanSyn#readme" target="_blank" rel="noopener noreferrer" data-i18n="software_readme_link">查看 README</a>
-          </p>
-        </section>
+        <div class="product-grid">
+          <section class="card product-card">
+            <p class="product-label" data-i18n="software_python_label">面向代码与批量分析</p>
+            <h2 data-i18n="software_python_title">QuanSyn Python Package</h2>
+            <p data-i18n="software_python_desc">适合 Python 用户、批量语料处理、可复现实验和论文分析流程，可直接集成到研究脚本中。</p>
+            <ul class="feature-tags">
+              <li data-i18n="software_python_feature_1">句法计量指标计算</li>
+              <li data-i18n="software_python_feature_2">依存句法数据处理</li>
+              <li data-i18n="software_python_feature_3">语言网络边抽取</li>
+              <li data-i18n="software_python_feature_4">Treebank / CoNLL-U 分析</li>
+            </ul>
+            <div class="code-sample">
+              <code>pip install quansyn</code>
+            </div>
+            <pre class="code-sample"><code>import quansyn
+
+# Use QuanSyn in reproducible syntax-analysis workflows.</code></pre>
+            <p class="small-muted" data-i18n="software_python_users">推荐给会 Python、需要批处理或希望将 QuanSyn 接入研究管线的用户。</p>
+            <div class="button-row">
+              <a class="btn" href="https://pypi.org/project/quansyn/" target="_blank" rel="noopener noreferrer" data-i18n="software_python_pypi_btn">查看 PyPI</a>
+              <a class="btn btn-secondary" href="https://github.com/YuhuYang/QuanSyn#readme" target="_blank" rel="noopener noreferrer" data-i18n="software_readme_link">查看 README</a>
+            </div>
+          </section>
+
+          <section class="card product-card">
+            <p class="product-label" data-i18n="software_studio_label">面向图形化与交互探索</p>
+            <h2 data-i18n="software_studio_title">QuanSyn Studio</h2>
+            <p data-i18n="software_studio_desc">图形化应用界面，适合不想写代码或需要交互式分析、课堂演示和探索式研究的用户。</p>
+            <ul class="feature-tags">
+              <li data-i18n="software_studio_feature_1">句法指标计算</li>
+              <li data-i18n="software_studio_feature_2">句法分析</li>
+              <li data-i18n="software_studio_feature_3">句法树编辑与可视化</li>
+              <li data-i18n="software_studio_feature_4">网络分析与可视化</li>
+              <li data-i18n="software_studio_feature_5">结果导出</li>
+            </ul>
+            <p class="small-muted" data-i18n="software_studio_users">推荐给语言学研究者、课程教学、演示和探索式分析用户。</p>
+            <div class="button-row">
+              <a class="btn" href="https://github.com/YuhuYang/QuanSyn_app/releases" target="_blank" rel="noopener noreferrer" data-i18n="software_studio_download_btn">下载 Studio</a>
+              <a class="btn btn-secondary" href="https://github.com/YuhuYang/QuanSyn" target="_blank" rel="noopener noreferrer" data-i18n="software_github_btn">打开 GitHub</a>
+            </div>
+          </section>
+        </div>
 
         <section class="card">
-          <h2 data-i18n="software_download_title">下载</h2>
-          <p>
-            <a class="btn" href="https://github.com/YuhuYang/QuanSyn/releases" target="_blank" rel="noopener noreferrer" data-i18n="software_download_btn">前往 Releases</a>
-          </p>
-          <p class="small-muted" data-i18n="software_download_note">可在 GitHub 仓库获取源码，在 Releases 页面下载已发布版本。</p>
+          <h2 data-i18n="software_resources_title">资源与下载</h2>
+          <p data-i18n="software_resources_desc">Python package 适合可复现的代码流程；QuanSyn Studio 适合交互式分析。源码、README 与发布版本均可从 GitHub 获取。</p>
+          <div class="button-row">
+            <a class="btn" href="https://github.com/YuhuYang/QuanSyn" target="_blank" rel="noopener noreferrer" data-i18n="software_github_btn">打开 GitHub</a>
+            <a class="btn btn-secondary" href="https://github.com/YuhuYang/QuanSyn#readme" target="_blank" rel="noopener noreferrer" data-i18n="software_readme_link">查看 README</a>
+            <a class="btn btn-secondary" href="https://github.com/YuhuYang/QuanSyn_app/releases" target="_blank" rel="noopener noreferrer" data-i18n="software_download_btn">前往 Releases</a>
+          </div>
+          <p class="small-muted" data-i18n="software_mini_note">quansyn mini 是早期简洁界面版本，当前页面主要介绍 Python package 与 QuanSyn Studio。</p>
         </section>
 
         <section class="card">

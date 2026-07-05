@@ -4,7 +4,7 @@
     { url: 'about.html', zh: '个人信息', en: 'Profile', kw: '个人信息 研究兴趣 学术网络 师承 Erdos 合作者 刘海涛' },
     { url: 'publications.html', zh: '论文发表', en: 'Publications', kw: '论文 发表 检索 句法 计量 QuanSyn 兼类 动名 依存 词类 二语 复杂网络 语言规划 语言演化' },
     { url: 'conferences.html', zh: '会议与展示', en: 'Conferences and Talks', kw: '会议 报告 展示 研讨会 论坛 QuantLing QuanSyn 金华 杭州 南京 上海 威海 浙江师范大学 浙江大学 复旦大学 北京语言大学 山东大学' },
-    { url: 'software.html', zh: '软件', en: 'Software', kw: '软件 QuanSyn README 下载 引用 depval lingnet lawfitter' },
+    { url: 'software.html', zh: '软件', en: 'Software', kw: '软件 QuanSyn Python package Studio PyPI README Releases 下载 引用 句法计量 依存句法 CoNLL-U treebank 句法树 网络分析 可视化 depval lingnet lawfitter' },
     { url: 'universals.html', zh: '博客', en: 'Blog', kw: '博客 文章 随笔 札记 语言学 方法' },
     { url: 'contact.html', zh: '联系', en: 'Contact', kw: '联系 邮箱 办公室 合作 留言 浙江大学 紫金港' },
   ];
