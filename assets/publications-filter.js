@@ -13,6 +13,20 @@
   const papers = [
     {
       title: {
+        zh: 'Social Centrality Differentiation Shapes the Dynamics of Linguistic Diffusion',
+        en: 'Social Centrality Differentiation Shapes the Dynamics of Linguistic Diffusion',
+      },
+      authors: { zh: ['Mu Yang', 'Haitao Liu'], en: ['Mu Yang', 'Haitao Liu'] },
+      venue: { zh: 'Journal of Language Evolution, accepted', en: 'Journal of Language Evolution, accepted' },
+      year: 2026,
+      link: 'publications/Social Centrality Differentiation Shapes the Dynamics of Linguistic Diffusion.pdf',
+      type: 'article',
+      domains: ['lang-evolution', 'complex-network'],
+      indices: ['ESCI'],
+      collaborators: { zh: ['Haitao Liu'], en: ['Haitao Liu'] },
+    },
+    {
+      title: {
         zh: '词类习得中的动名词类效应研究',
         en: 'The Verb-Noun Effect in the Second Language Acquisition of Word Class',
       },
