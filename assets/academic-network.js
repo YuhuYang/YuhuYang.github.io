@@ -10,16 +10,16 @@
   };
 
   const publicationAuthors = [
-    ['Yang Mu', 'Haitao Liu'],
-    ['Yang Mu', 'Haitao Liu'],
-    ['Yang Mu', 'Haitao Liu'],
-    ['Yang Mu', 'Haitao Liu'],
-    ['Yang Mu', 'Tsy Yih', 'Yiran Yang', 'Haitao Liu', 'Lihe Huang'],
-    ['Yang Mu', 'Kexin Yang', 'Huibin Zhuang'],
-    ['Yang Mu', 'Haitao Liu'],
-    ['Yang Mu', 'Kexin Yang', 'Huibin Zhuang'],
-    ['Yang Mu', 'Cai Yansheng'],
-    ['Yang Mu', 'Haitao Liu'],
+    ['Mu Yang', 'Haitao Liu'],
+    ['Mu Yang', 'Haitao Liu'],
+    ['Mu Yang', 'Haitao Liu'],
+    ['Mu Yang', 'Haitao Liu'],
+    ['Mu Yang', 'Tsy Yih', 'Yiran Yang', 'Haitao Liu', 'Lihe Huang'],
+    ['Mu Yang', 'Kexin Yang', 'Huibin Zhuang'],
+    ['Mu Yang', 'Haitao Liu'],
+    ['Mu Yang', 'Kexin Yang', 'Huibin Zhuang'],
+    ['Mu Yang', 'Cai Yansheng'],
+    ['Mu Yang', 'Haitao Liu'],
   ];
 
   const nodesByName = new Map();
@@ -86,7 +86,7 @@
 
     nodes.forEach((node) => {
       const scaled = Math.sqrt(node.weightedDegree / maxWeightedDegree);
-      node.radius = 6 + scaled * 10;
+      node.radius = 5 + scaled * 8;
     });
   }
 
@@ -176,7 +176,7 @@
     });
 
     nodes.forEach((n) => {
-      const isCenter = n.name === 'Yang Mu';
+      const isCenter = n.name === 'Mu Yang';
       const isHovered = hoveredNode && hoveredNode.name === n.name;
       ctx.fillStyle = isCenter
         ? 'rgba(89, 244, 200, 0.96)'
@@ -193,7 +193,7 @@
       ctx.fillText(n.name, n.x, n.y - n.radius - 8);
     });
 
-    const centerName = 'Yang Mu';
+    const centerName = 'Mu Yang';
     let centerWeightedDegree = 0;
     edges.forEach((weight, key) => {
       const [a, b] = key.split('__');
