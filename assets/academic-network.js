@@ -86,7 +86,7 @@
 
     nodes.forEach((node) => {
       const scaled = Math.sqrt(node.weightedDegree / maxWeightedDegree);
-      node.radius = 8 + scaled * 14;
+      node.radius = 6 + scaled * 10;
     });
   }
 
