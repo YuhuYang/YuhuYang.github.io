@@ -13,6 +13,7 @@
     ['Yang Mu', 'Haitao Liu'],
     ['Yang Mu', 'Haitao Liu'],
     ['Yang Mu', 'Haitao Liu'],
+    ['Yang Mu', 'Haitao Liu'],
     ['Yang Mu', 'Tsy Yih', 'Yiran Yang', 'Haitao Liu', 'Lihe Huang'],
     ['Yang Mu', 'Kexin Yang', 'Huibin Zhuang'],
     ['Yang Mu', 'Haitao Liu'],
@@ -24,6 +25,8 @@
   const nodesByName = new Map();
   const edges = new Map();
   const nodes = [];
+  let maxEdgeWeight = 1;
+  let maxWeightedDegree = 1;
   let hoveredNode = null;
   let draggingNode = null;
   let dragOffsetX = 0;
@@ -48,8 +51,8 @@
             y: 0,
             vx: 0,
             vy: 0,
-            radius: name === 'Yang Mu' ? 13 : 10,
-            degree: 0,
+            radius: 10,
+            weightedDegree: 0,
             link: collaboratorLinks[name] || null,
           };
           nodesByName.set(name, node);
@@ -72,8 +75,18 @@
       const na = nodesByName.get(a);
       const nb = nodesByName.get(b);
       if (!na || !nb) return;
-      na.degree += weight;
-      nb.degree += weight;
+      maxEdgeWeight = Math.max(maxEdgeWeight, weight);
+      na.weightedDegree += weight;
+      nb.weightedDegree += weight;
+    });
+
+    nodes.forEach((node) => {
+      maxWeightedDegree = Math.max(maxWeightedDegree, node.weightedDegree);
+    });
+
+    nodes.forEach((node) => {
+      const scaled = Math.sqrt(node.weightedDegree / maxWeightedDegree);
+      node.radius = 8 + scaled * 14;
     });
   }
 
@@ -153,8 +166,9 @@
       const a = nodesByName.get(aName);
       const b = nodesByName.get(bName);
       if (!a || !b) return;
-      ctx.strokeStyle = `rgba(104, 197, 255, ${Math.min(0.75, 0.24 + weight * 0.16)})`;
-      ctx.lineWidth = 1 + Math.min(2, weight * 0.8);
+      const edgeStrength = weight / maxEdgeWeight;
+      ctx.strokeStyle = `rgba(104, 197, 255, ${0.25 + edgeStrength * 0.55})`;
+      ctx.lineWidth = 1 + edgeStrength * 5;
       ctx.beginPath();
       ctx.moveTo(a.x, a.y);
       ctx.lineTo(b.x, b.y);
@@ -180,14 +194,14 @@
     });
 
     const centerName = 'Yang Mu';
-    let centerDegree = 0;
-    edges.forEach((_w, key) => {
+    let centerWeightedDegree = 0;
+    edges.forEach((weight, key) => {
       const [a, b] = key.split('__');
       if (a === centerName || b === centerName) {
-        centerDegree += 1;
+        centerWeightedDegree += weight;
       }
     });
-    const statsText = `N=${nodes.length}， E=${edges.size}， K(MY)=${centerDegree}`;
+    const statsText = `N=${nodes.length}， E=${edges.size}， Kw(MY)=${centerWeightedDegree}`;
 
     ctx.fillStyle = 'rgba(8, 18, 42, 0.65)';
     ctx.fillRect(12, height - 34, 380, 22);
