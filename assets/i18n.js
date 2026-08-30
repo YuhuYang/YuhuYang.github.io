@@ -1,6 +1,6 @@
 ﻿(() => {
   const dictionary = {
-    site_name: { zh: '杨牧', en: 'Yang Mu' },
+    site_name: { zh: '杨牧', en: 'Mu Yang' },
     tagline: { zh: '我见青山多妩媚', en: 'I find the green mountains enchanting' },
     nav_home: { zh: '首页', en: 'Home' },
     nav_about: { zh: '个人信息', en: 'Profile' },
@@ -23,7 +23,7 @@
     label_orcid: { zh: 'ORCID', en: 'ORCID' },
     right_links_title: { zh: '友情链接', en: 'Academic Links' },
     right_link_haitao: { zh: '刘海涛教授主页', en: "Prof. Haitao Liu's Homepage" },
-    footer_text: { zh: '© 2026 杨牧 | 学术主页', en: '© 2026 Yang Mu | Academic Homepage' },
+    footer_text: { zh: '© 2026 杨牧 | 学术主页', en: '© 2026 Mu Yang | Academic Homepage' },
 
     index_research_title: { zh: '研究方向', en: 'Research Focus' },
     index_research_desc: { zh: '聚焦古典预言文本、跨语种语义映射与语言结构中的普遍规律，结合语料库方法与历史比较语言学进行解释。', en: 'Focused on classical prophetic texts, cross-lingual semantic mapping, and structural universals in language, using corpus methods and historical-comparative linguistics.' },
@@ -40,7 +40,7 @@
 
     about_title: { zh: '个人信息', en: 'Profile' },
     about_name_label: { zh: '姓名：', en: 'Name: ' },
-    about_name_value: { zh: '杨牧', en: 'Yang Mu' },
+    about_name_value: { zh: '杨牧', en: 'Mu Yang' },
     about_role_label: { zh: '职称：', en: 'Position: ' },
     about_role_value: { zh: '浙江大学在读博士', en: 'Doctoral Student, Zhejiang University' },
     about_research_label: { zh: '研究领域：', en: 'Research Areas: ' },
