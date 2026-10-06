@@ -22,7 +22,7 @@
         en: 'Journal of Language Evolution, 11, lzag010 (Published online: 1 October 2026)',
       },
       year: 2026,
-      link: 'https://doi.org/10.1093/jole/lzag010',
+      link: 'publications/Social Centrality Differentiation Shapes the Dynamics of Linguistic Diffusion.pdf',
       type: 'article',
       domains: ['lang-evolution', 'complex-network'],
       indices: ['ESCI'],
